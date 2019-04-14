@@ -1,0 +1,53 @@
+.container{
+  width: 1300px;
+  height: 450px;
+  margin: 0 auto;
+  background-color: #009BB9;
+}
+
+.message{
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  position: relative;
+}
+
+.message div{
+  margin-bottom: 7px;
+}
+
+.message div span{
+  color:red;
+}
+
+.message a{
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+}
+
+.message a:last-child{
+  left: 80px;
+}
+
+.board{
+  float: left;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 20px;
+  background-color: white;
+}
+
+.loginform{
+  border: 1px solid black;
+  border-radius: 8px;
+  float: right;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
